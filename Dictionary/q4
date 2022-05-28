@@ -1,0 +1,10 @@
+WAP to print the dictionary of name and age that are eligible to vote
+d={}
+n=int(input("enter size"))
+for i in range(0,n):
+  x=input("enter name")
+  y=int(input("enter age"))
+  d[x]=y
+for i,j in d.items():
+  if(j>=18):
+    print(i+":"+j+"eligible")
