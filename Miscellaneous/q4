@@ -1,0 +1,5 @@
+WAP to find total number of lines in a text
+
+with open ('demo.txt') as f:
+  r=len(list(f))
+print(r)
