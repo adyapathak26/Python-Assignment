@@ -1,0 +1,7 @@
+WAP to find largest word in the text
+
+ls=[]
+with open('demo.txt') as f:
+  d=f.read().split()
+  re=max(d,key=len)
+print(re)
