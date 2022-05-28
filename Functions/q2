@@ -1,0 +1,10 @@
+Write Python Function that Takes a List and return the List containing the unique Elements of First List.
+'''
+def unique(lis):
+    a=[]
+    for i in lis:
+        if i not in a:
+            a.append(i)
+    return a
+l=eval(input("Enter the List Elements"))
+print(unique(l))
