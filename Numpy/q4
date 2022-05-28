@@ -1,0 +1,7 @@
+WAP to to create a M*N matrix where diagonal elements are 1 and everywhere else is 0.
+
+import numpy as np
+
+n=int(input("enter size of matrix"))
+
+print(np.eye(n,dtype=int))
