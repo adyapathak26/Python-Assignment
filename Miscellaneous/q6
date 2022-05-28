@@ -1,0 +1,3 @@
+import math as mp
+n=float(input("enter decimal no."))
+print(mp.ceil(n))
