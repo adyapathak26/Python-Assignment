@@ -1,0 +1,4 @@
+import math as mp
+n=int(input("enter no"))
+m=int(input("enter power"))
+print(mp.pow(n,m))
