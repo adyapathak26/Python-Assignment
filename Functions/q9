@@ -1,0 +1,14 @@
+Write a function to print a Fibinacco Series Up to N terms.
+ '''
+def series(n):
+    n1, n2 = 0, 1
+    count = 0
+    print("Fibonacci sequence:")
+    while count < n:
+       print(n1,end=" ")
+       nth = n1 + n2
+       n1 = n2
+       n2 = nth
+       count += 1
+n=int(input("Enter the Number of Terms Up to which You want to print Fabinacco Series"))
+series(n)
