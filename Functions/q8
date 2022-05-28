@@ -1,0 +1,15 @@
+Write a function to check the given number is Prime or not.
+ '''
+def prime(n):
+    c=0
+    k=1
+    while (k<=n):
+        if n%k==0:
+            c+=1
+        k+=1
+    if c==2:
+        print("Enter Number is Prime Number")
+    else :
+        print("Enter Number is not Prime Number")
+a=int(input("enter the Number"))
+prime(a)
