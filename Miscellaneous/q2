@@ -1,0 +1,8 @@
+WAP to read first n lines
+
+f=open('demo.txt','r')
+n=int(input('enter no of lines'))
+for i in range (n):
+  d=f.readline()
+  print(d)
+f.close()
