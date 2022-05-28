@@ -1,0 +1,6 @@
+WAP to find a+b sqaure
+
+import math as mp
+n=int(input("enter no"))
+m=int(input("enter other no"))
+print(mp.pow(n+m,2))
