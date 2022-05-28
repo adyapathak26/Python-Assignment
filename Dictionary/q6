@@ -1,0 +1,16 @@
+WAP to merge two dictionaries and store it in first
+a={}
+b={}
+n=int(input("enter size of first dict"))
+nu=int(input("enter size of second"))
+for i in range(0,n):
+  x=input("enter key")
+  y=input("enter value")
+  a[x]=y
+for i in range(0,nu):
+  x=input("enter key")
+  y=input("enter value")
+  b[x]=y
+for i,j in b.items():
+  a[i]=j
+print(a)
