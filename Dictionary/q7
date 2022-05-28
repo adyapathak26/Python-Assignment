@@ -1,0 +1,13 @@
+Take the input from user.If value matches the key then delete the key
+d={}
+n=int(input("enter the size")
+for i in range(0,n):
+  x=input("enter key")
+  y=input("enter value")
+  d[x]=y
+n={}
+v=int(input("enter the value"))
+for i,j in d.items():
+  if(v!=j):
+    n[i]=j
+print(n)
