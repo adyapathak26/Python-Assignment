@@ -1,0 +1,11 @@
+Input a key.If key exists then delete it
+d={}
+n=int(input("enter size"))
+for i in range(0,n):
+  x=input("enter key")
+  y=input("enter value")
+  d[x]=y
+k=input("enter the key")
+if k in d.items():
+  d.pop(k)
+print(d)
