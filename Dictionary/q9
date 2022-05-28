@@ -1,0 +1,5 @@
+Create two lists Students and Marks.Create a dictionary from two list using dictionary comprehension .Use name as keys and marks as values
+a=eval(input("Enter the names of students")
+b=eval(input("enter the marks of students")
+d={k:v for(k,v) in zip(a,b)}
+print(d)
