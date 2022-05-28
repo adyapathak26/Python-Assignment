@@ -1,0 +1,6 @@
+WAP to find a random number btw a range whatever no. comes that person with that no. will win the lottery.
+
+import random as  rd
+n=int(input())
+m=int(input())
+print('winner is person with lottery no.',rd.randrange(n,m+1))
