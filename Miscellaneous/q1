@@ -1,0 +1,6 @@
+WAP to write biodata
+
+bio=input("enter biodata")
+f=open('demo.txt','w')
+f.write(bio)
+f.close
