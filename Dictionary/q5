@@ -1,0 +1,15 @@
+WAP to replace a given key value pair in a dictionary
+d={}
+n=int(input("enter the size")
+for i in range(0,n):
+  x=input("enter key")
+  y=input("enter value")
+  d[x]=y
+k=input("enter key to be replaced")
+nk=input("enter new key")
+nv=input("enter the value")
+for i,j in d.items():
+  if (i==k):
+    d.pop(i)
+    d[nk]=nv
+print ("new dictionary:-\n",d)
