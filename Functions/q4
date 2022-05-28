@@ -1,0 +1,16 @@
+Write a Python Function that accepts a string and calculate the number
+of Upper Case Letters and lowercase Letters in the String.
+'''
+def calculate(a):
+    d={"uppercase":0,"lowercase":0}
+    for c in a:
+        if c.isupper():
+            d["uppercase"]+=1
+        elif c.islower():
+            d["lowercase"]+=1
+        else:
+            pass
+    print("No. of Uppercase Characters :", d["uppercase"])
+    print("No. of lowercase Characters :", d["lowercase"])
+a=input("Enter the String")
+calculate(a)
