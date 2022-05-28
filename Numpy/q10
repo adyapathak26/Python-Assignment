@@ -1,0 +1,7 @@
+WAP to create an M*n matrix with all elements as 1 and then delete the matrix
+
+import numpy as np
+n=int(input())
+m=int(input())
+print(np.ones([m,n],dtype=int))
+print("after deleting\n ",np.empty([m,n]))
