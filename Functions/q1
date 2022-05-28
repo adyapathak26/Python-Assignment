@@ -1,0 +1,11 @@
+WAP that defines a function called frequency() which computes the frequency of words present in a sentence passed to it.The frequencies should be returned in sorted order of words in the sentence
+def frequency(s):
+  freq={}
+  for word in s.split():
+    freq[word]=freq.get(word,0)+1
+  return freq
+s=input("enter the sentence")
+d=frequency(s)
+words=sorted(d)
+for w in words:
+  print('%s:%d'%(w,d[w]))
