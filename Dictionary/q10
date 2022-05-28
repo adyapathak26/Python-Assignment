@@ -1,0 +1,11 @@
+WAP to fetch all values of a dict in a given format.
+key=value using items()
+d={}
+n=int(input("Enter the size"))
+for i in range(0,n):
+  x=int(input("enter a key"))
+  y=int(input("enter a value"))
+  d[x]=y
+b=d.items()
+for i,j in b:
+  print(i,"=",j)
