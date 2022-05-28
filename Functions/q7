@@ -1,0 +1,9 @@
+ Write a function in Python to find the sum of keys and Values of a Dictionary.
+  '''
+def sum_of_items(d):
+    a=d.keys()
+    print("Sum of Keys= ",sum(a))
+    b=d.values()
+    print("Sum of Values= ",sum(b))
+a={1:2,2:3,3:4,4:5,5:6}
+sum_of_items(a)
